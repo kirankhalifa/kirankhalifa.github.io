@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kiran Khalifa</title>
+<style>
+  :root {
+    --text: #1a1a1a;
+    --muted: #5a5a5a;
+    --accent: #1a1a1a;
+    --rule: #d0d0d0;
+    --bg: #fafaf7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--text);
+    background: var(--bg);
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px 24px;
+  }
+  header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    letter-spacing: -0.5px;
+  }
+  header .location {
+    color: var(--muted);
+    font-size: 15px;
+    margin: 0 0 24px 0;
+  }
+  .intro {
+    margin: 0 0 40px 0;
+    color: var(--text);
+  }
+  h2 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 40px 0 16px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .item {
+    margin: 0 0 24px 0;
+  }
+  .item .title {
+    font-weight: 700;
+    font-style: italic;
+  }
+  .item .meta {
+    color: var(--muted);
+    font-size: 15px;
+  }
+  .item p {
+    margin: 6px 0 0 0;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  a:hover {
+    color: #000;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 16px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 15px;
+  }
+  footer a { color: var(--text); }
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .container { padding: 40px 20px 64px 20px; }
+    header h1 { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Kiran Khalifa</h1>
+    <p class="location">Northern Virginia</p>
+  </header>
+
+  <p class="intro">
+    Undergraduate researcher in international security, finishing a B.A. at George Mason University, with an OSINT research position focused on PLA naval and air activity. Alongside the professional work, I write in long form on questions in political theory, civilizational history, and the structural assessment of non-state actors. The samples below are a cross-section of both.
+  </p>
+
+  <h2>Professional Analytical Writing</h2>
+
+  <div class="item">
+    <div>
+      <span class="title">Architecture Over Arsenal: What Link-22 Would Mean for Taiwan's Defense.</span>
+      <span class="meta">Taiwan Security Monitor, 2025. Co-author.</span>
+    </div>
+    <p>
+      Analysis of Taiwan's acquisition of the Link 22 tactical data link and its interoperability implications for United States and allied forces in the Indo-Pacific.
+      <a href="REPLACE_WITH_LINK22_URL">Read</a>.
+    </p>
+  </div>
+
+  <div class="item">
+    <div>
+      <span class="title">Long-form analysis of the 2024 reorganization of the PLA Strategic Support Force.</span>
+      <span class="meta">Taiwan Security Monitor, forthcoming 2026. Sole author.</span>
+    </div>
+    <p>
+      Examines the reorganization's implications for joint command relationships and crisis-time authority. Draft
+      <a href="REPLACE_WITH_SSF_DRAFT_GDOC_URL">available on request</a>.
+    </p>
+  </div>
+
+  <h2>Long-Form Work</h2>
+
+  <div class="item">
+    <div>
+      <span class="title">The Latent Phalanx.</span>
+      <span class="meta">Senior thesis, George Mason University, 2026.</span>
+    </div>
+    <p>
+      Argues that paramilitary mobilization potential in Western Europe is better assessed through organizational structure than ideology. Develops a capacity-before-intent framework for evaluating when non-state armed groups can and cannot translate political conditions into operational force.
+      <a href="REPLACE_WITH_THESIS_GDOC_URL">Read</a>.
+    </p>
+  </div>
+
+  <div class="item">
+    <div>
+      <span class="title">The Promethean Gift: A Faustian Love Letter to Western Civilization.</span>
+      <span class="meta">Independent essay, 2026.</span>
+    </div>
+    <p>
+      A sustained argument for the civilizational distinctiveness of the West, engaging Spengler, Schmitt, Hanson, and the civilizational-decline tradition.
+      <a href="REPLACE_WITH_PROMETHEAN_GDOC_URL">Read</a>.
+    </p>
+  </div>
+
+  <h2>Projects</h2>
+
+  <div class="item">
+    <div>
+      <span class="title">Miyako Strait Transit Tracker.</span>
+      <span class="meta">Python application in production use at Taiwan Security Monitor.</span>
+    </div>
+    <p>
+      Parses Japanese Ministry of Defense press releases to extract PLA Navy transit events and classifies them by geographic corridor. Now part of the team's recurring workflow. Repository private; details on request.
+    </p>
+  </div>
+
+  <footer>
+    <a href="mailto:Kirankhalifa@gmail.com">Kirankhalifa@gmail.com</a>
+  </footer>
+
+</div>
+</body>
+</html>
